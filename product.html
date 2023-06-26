@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Product Details - Spotify</title>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+      (function() {
+          // https://dashboard.emailjs.com/admin/account
+          emailjs.init('Za52PJDs2KA3vfSGf');
+      })();
+  </script>
+
+</head>
+
+<body>
+  <!-- Navigation Menu -->
+  <nav class="fixed-top  navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container">
+
+    <a class="navbar-brand" href="index.html">Digital Store</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-tarAcheter="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html#product-list">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+ 
+      </ul>
+    </div>
+  </div>
+
+  </nav>
+   <!-- Product Details Section -->
+  <section id="product-details" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="product-carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#product-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#product-carousel" data-slide-to="1"></li>
+              <li data-target="#product-carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img id="product-image1" src="images/nothings.png" class="d-block w-100" alt="Spotify Slide 1">
+              </div>
+              <div class="carousel-item">
+                <img id="product-image2" src="images/nothings.png" class="d-block w-100" alt="Spotify Slide 2">
+              </div>
+              <div class="carousel-item">
+                <img id="product-image3" src="images/nothings.png" class="d-block w-100" alt="Spotify Slide 3">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#product-carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#product-carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <!-- Thumbnail Images -->
+          <div class="row mt-5">
+            <div class="col-4">
+              <img id="product-image11" src="images/nothings.png" style="width: 100px;" class="img-fluid" alt="Thumbnail Image 1"
+                onclick="$('#product-carousel').carousel(0)">
+            </div>
+            <div class="col-4">
+              <img id="product-image22" src="images/nothings.png" style="width: 100px;" class="img-fluid" alt="Thumbnail Image 2"
+                onclick="$('#product-carousel').carousel(1)">
+            </div>
+            <div class="col-4">
+              <img  id="product-image33" src="images/nothings.png"  style="width: 100px;" class="img-fluid" alt="Thumbnail Image 3"
+                onclick="$('#product-carousel').carousel(2)">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+ 
+
+          <h2 class="mb-4" id="product-name">Spotify Premium</h2>
+          <h3 class="mb-3"   id="product-price" style="color: rgb(40, 235, 40);"> $9.99/month</h3>
+
+          <p id="product-mindescription" >Enhance your music listening experience with Spotify Premium. Enjoy unlimited ad-free streaming, high-quality audio, and offline playback.</p>
+          
+          <p>Infos clients</p>
+          <form id="order-form"    method="post">
+
+
+         <div class="form-row">
+          <div class="form-group col-md-6">
+            <input type="text"  id="product-name1"  name="productname1" hidden   class="form-control"  >
+            <input type="text"   name="name" placeholder="Nom complet" class="form-control"  >
+          </div>
+          <div class="form-group  col-md-6">
+             
+            <input type="text"  name="phone"  placeholder="telephone" class="form-control"  >
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" name="email" placeholder="Adesse email">
+        </div>
+        <div class="form-row">
+        <div class="form-group col-md-3">
+           <input type="number"  name="quantity" class="form-control" min="1" value="1">
+        </div>
+        <div class="form-group  col-md-9">
+          <button type="submit" class="w-100 btn btn-primary">Acheter maintenant </button>
+
+        </div>
+        </div>
+      </form>
+      <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('order-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+             
+                // these IDs from the previous steps
+                emailjs.sendForm('service_gb6nt9c', 'template_pi1dkge', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                        window.location.href = "thankyou.html";
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+      
+           <p>Category: <span  style="color: rgb(40, 235, 40);">   Digital product</span></p>
+          </div>
+           <br>
+          <div class="mt-4" id="product-description"> 
+           
+            
+           </div>       
+         </div>
+        </div>
+        </div>
+       
+      </div>
+    
+    </div>
+
+  </section>
+
+  <!-- Related Products Section -->
+  <section id="related-products" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Related Products</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/netflix.jpg" class="card-img-top" alt="Netflix Logo">
+            <div class="card-body">
+              <h5 class="card-title">Netflix Subscription</h5>
+              <p class="card-text">Stream popular movies and TV shows with Netflix. Watch anytime, anywhere.</p>
+              <a href="product.html?id=7" class="btn btn-primary">acheter</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/chahidtv.jpg" class="card-img-top" alt="Chahid TV Logo">
+            <div class="card-body">
+              <h5 class="card-title">Chahid TV Plus</h5>
+              <p class="card-text">Access a wide range of Arabic shows, series, and movies with Chahid TV Plus.</p>
+              <a href="product.html?id=2" class="btn btn-primary">acheter</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/iptv3m.png" class="card-img-top" alt="Accounts TC Logo">
+            <div class="card-body">
+              <h5 class="card-title">Premium Accounts</h5>
+              <p class="card-text">Get premium accounts for various platforms, including streaming services and more.</p>
+              <a href="product.html?id=4" class="btn btn-primary">acheter</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="py-4 bg-dark text-white text-center">
+    <div class="container">
+      <p>&copy; 2023 Digital Store. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+ 
+ 
+    <!-- // Get user input values
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var quantity = document.getElementById('quantity').value;
+    var produitname = document.getElementById('product-name1').value;
+    var phone = document.getElementById('telephone').value;
+    // Create the email parameters
+    var params = { 
+        'produitname': produitname,
+        'email': email,
+        'quantity': quantity,
+        'name': name,
+        'phone':phone
+    }; -->
+
+ 
+
+   <script>
+    function getProductDetails(productID) {
+    // Fetch the product data from the JSON file or API
+    fetch('products.json')
+      .then(response => response.json())
+      .then(data => {
+        const products = data.products;
+        // Find the product by name or ID
+        const product = products.find(p => p.id == productID);
+  
+        if (product) {
+          console.log("sfqcesfs");
+          // Populate the HTML template with product details
+
+          document.getElementById('product-description').innerHTML = product.description;
+          document.getElementById('product-name').textContent = product.name;     
+          document.getElementById('product-name1').value = product.name;     
+          console.log("sfqcesfs");
+
+           document.getElementById('product-mindescription').textContent = product.mindescription;
+          document.getElementById('product-price').textContent = '$' + product.price;
+          document.getElementById('product-image1').src = product.image[0].image1;
+          document.getElementById('product-image11').src = product.image[0].image1;
+          document.getElementById('product-image2').src = product.image[0].image2;
+          document.getElementById('product-image22').src = product.image[0].image2;
+          document.getElementById('product-image3').src = product.image[0].image3;
+          document.getElementById('product-image33').src = product.image[0].image3;
+ 
+
+        } else {
+          console.log('Product not found');
+        }
+      })
+      .catch(error => console.error('Error:', error));
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const productID = urlParams.get('id');
+  console.log(productID);
+
+  getProductDetails(productID);
+});
+
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

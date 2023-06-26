@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Digital Product Store</title>
+  <style>
+    .carousel-item {
+      height: 500px;
+    }
+
+    .carousel-caption {
+    
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      text-align: center;
+    }
+
+    .carousel-item img {
+        z-index: -3;
+      opacity: 0.8;
+    }
+    #hero-carousel .carousel-item img {
+      height: 70vh; /* Adjust the height for PC */
+      object-fit: cover;
+    }
+
+    @media (max-width: 767px) {
+      #hero-carousel .carousel-item img {
+        height: 90vh; /* Adjust the height for mobile */
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation Menu -->
+  <nav class="fixed-top  navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container">
+
+    <a class="navbar-brand" href="index.html">Digital Store</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-tarAcheter="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html/#product-list">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+ 
+      </ul>
+    </div>
+  </div>
+
+  </nav>
+
+
+<div class="container mt-5">
+    <div class="jumbotron text-center">
+      <h1 class="display-4 text-danger">Thank You!</h1>
+      <p class="lead">Your oder has been successfully submitted.</p>
+      <hr class="my-4">
+      <p>We appreciate your interest and will get back to you as soon as possible.</p>
+      <a class="btn btn-primary btn-lg" href="index.html" role="button">Back to Home</a>
+    </div>
+  </div>
+
+   <!-- Footer Section -->
+   <footer class="py-4 bg-dark text-white text-center">
+    <div class="container">
+      <p>&copy; 2023 Digital Store. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+{
+    "products": [
+      {
+        "id":1,
+        "name": "Spotify",
+        "mindescription": "Sdcsdqfdsqvsic and discover new artists.'        ",
+        "description": "Stream your favorite music and discover new artists.'        ",
+        "price": 10.99,
+        "image":[
+            {
+              "image1": "images/spotify.jpg",
+              "image2":"images/spotify.jpg",
+              "image3":"images/spotify.jpg"
+            }
+        ] 
+      },    
+      {
+          "id":2,
+          "name": "chahid tv",
+          "mindescription": "Sdcsdqfdsqvsic and discover new artists.'        ",
+          "description": "Stream your favorite music and discover new artists.'        ",
+          "price": 10.99,
+          "image":[
+              {
+                "image1": "images/chahidtv.jpg",
+                "image2":"images/chahidtv.jpg",
+                "image3":"images/chahidtv.jpg"
+              }
+          ] 
+        },
+      {
+        "id":3,
+        "name": "IPTV 1 mois",
+        "mindescription": "IPTV 1 mois",
+        "description":" <h2>Fonctionnalités :</h2> <ul> <li>Accès à des centaines de chaînes de télévision en direct du monde entier.</li> <li>Large bibliothèque de films, séries TV et programmes à la demande.</li> <li>Guide électronique des programmes (EPG) pour une planification facile de vos émissions préférées.</li> <li>Compatibilité multi-plateforme : Regardez la télévision sur votre téléviseur, ordinateur, smartphone ou tablette.</li> <li>Qualité vidéo haute définition (HD) et diffusion sans interruption.</li> <li>Fonctionnalités de pause, rembobinage et enregistrement pour ne jamais manquer un moment.</li> </ul> <h2>Avantages Uniques :</h2> <ul> <li>Service fiable et stable avec une disponibilité garantie.</li> <li>Assistance client réactive pour répondre à toutes vos questions et résoudre les problèmes.</li> <li>Mises à jour régulières du contenu pour vous offrir une expérience de visionnage toujours enrichissante.</li> <li>Interface conviviale et intuitive pour une navigation facile et une expérience utilisateur agréable.</li> </ul>" ,
+        "price": 19.99,
+        "image":[
+          {
+            "image1":  "images/iptv1m.png",
+            "image2": "images/iptv1m.png",
+            "image3": "images/iptv1m.png"
+          }
+      ] 
+      },
+      {
+        "id":4,
+        "name": "IPTV 3 mois",
+        "mindescription": "IPTV 1 mois",
+        "description": "<h2>Fonctionnalités :</h2> <ul> <li>Accès à des centaines de chaînes de télévision en direct du monde entier.</li> <li>Large bibliothèque de films, séries TV et programmes à la demande.</li> <li>Guide électronique des programmes (EPG) pour une planification facile de vos émissions préférées.</li> <li>Compatibilité multi-plateforme : Regardez la télévision sur votre téléviseur, ordinateur, smartphone ou tablette.</li> <li>Qualité vidéo haute définition (HD) et diffusion sans interruption.</li> <li>Fonctionnalités de pause, rembobinage et enregistrement pour ne jamais manquer un moment.</li> </ul> <h2>Avantages Uniques :</h2> <ul> <li>Service fiable et stable avec une disponibilité garantie.</li> <li>Assistance client réactive pour répondre à toutes vos questions et résoudre les problèmes.</li> <li>Mises à jour régulières du contenu pour vous offrir une expérience de visionnage toujours enrichissante.</li> <li>Interface conviviale et intuitive pour une navigation facile et une expérience utilisateur agréable.</li> </ul>",
+        "price": 19.99,
+        "image":[
+          {
+            "image1":  "images/iptv3m.png",
+            "image2": "images/iptv3m.png",
+            "image3": "images/iptv3m.png"
+          }
+      ] 
+      },
+      {
+        "id":5,
+        "name": "IPTV 6 mois",
+        "mindescription": "IPTV 6 mois",
+        "description": "<h2>Fonctionnalités :</h2> <ul> <li>Accès à des centaines de chaînes de télévision en direct du monde entier.</li> <li>Large bibliothèque de films, séries TV et programmes à la demande.</li> <li>Guide électronique des programmes (EPG) pour une planification facile de vos émissions préférées.</li> <li>Compatibilité multi-plateforme : Regardez la télévision sur votre téléviseur, ordinateur, smartphone ou tablette.</li> <li>Qualité vidéo haute définition (HD) et diffusion sans interruption.</li> <li>Fonctionnalités de pause, rembobinage et enregistrement pour ne jamais manquer un moment.</li> </ul> <h2>Avantages Uniques :</h2> <ul> <li>Service fiable et stable avec une disponibilité garantie.</li> <li>Assistance client réactive pour répondre à toutes vos questions et résoudre les problèmes.</li> <li>Mises à jour régulières du contenu pour vous offrir une expérience de visionnage toujours enrichissante.</li> <li>Interface conviviale et intuitive pour une navigation facile et une expérience utilisateur agréable.</li> </ul> ",
+        "price": 19.99,
+        "image":[
+          {
+            "image1":  "images/iptv6m.png",
+            "image2": "images/iptv6m.png",
+            "image3": "images/iptv6m.png"
+          }
+      ] 
+      },
+      {
+        "id":6,
+        "name": "IPTV 12 mois",
+        "mindescription": "IPTV 12 mois",
+        "description":"<h2>Fonctionnalités :</h2> <ul> <li>Accès à des centaines de chaînes de télévision en direct du monde entier.</li> <li>Large bibliothèque de films, séries TV et programmes à la demande.</li> <li>Guide électronique des programmes (EPG) pour une planification facile de vos émissions préférées.</li> <li>Compatibilité multi-plateforme : Regardez la télévision sur votre téléviseur, ordinateur, smartphone ou tablette.</li> <li>Qualité vidéo haute définition (HD) et diffusion sans interruption.</li> <li>Fonctionnalités de pause, rembobinage et enregistrement pour ne jamais manquer un moment.</li> </ul> <h2>Avantages Uniques :</h2> <ul> <li>Service fiable et stable avec une disponibilité garantie.</li> <li>Assistance client réactive pour répondre à toutes vos questions et résoudre les problèmes.</li> <li>Mises à jour régulières du contenu pour vous offrir une expérience de visionnage toujours enrichissante.</li> <li>Interface conviviale et intuitive pour une navigation facile et une expérience utilisateur agréable.</li> </ul>",
+        "price": 19.99,
+        "image":[
+          {
+            "image1":  "images/iptv12m .png",
+            "image2": "images/iptv12m .png",
+            "image3": "images/iptv12m .png"
+          }
+      ] 
+      },
+      {
+        "id":7,
+        "name": "netflix",
+        "mindescription": "Description of Product 2",
+        "description": " <p> Get access to a premium Netflix account and enjoy unlimited streaming of your favorite TV shows, movies, and documentaries. With our Netflix account, you can dive into a vast library of content across various genres, including action, comedy, drama, and more. Experience seamless entertainment without any interruptions or ads. </p> <h3>Features:</h3> <ul> <li>Unlimited access to the entire Netflix catalog</li> <li>Watch popular TV shows, movies, and documentaries</li> <li>High-definition (HD) and ultra-high-definition (UHD) streaming available</li> <li>Multiple profiles for personalized recommendations and viewing history</li> <li>Download content for offline viewing on supported devices</li> <li>No ads or interruptions during playback</li> <li>Compatible with various devices: smart TVs, laptops, tablets, and smartphones</li> </ul> <h3>How it works:</h3> <ol> <li>Upon purchase, you will receive login credentials for a valid Netflix account.</li> <li>Sign in to Netflix using the provided account details.</li> <li>Start streaming your favorite TV shows and movies instantly.</li> <li>Create your own profiles and customize your viewing experience.</li> <li>Enjoy uninterrupted entertainment without any limitations.</li> </ol> <p> Note: The Netflix account provided is for a specific duration or subscription plan. Please refer to the pricing details for more information. </p> <p> Get your Netflix account today and indulge in endless entertainment right at your fingertips! </p>",
+        "price": 80.99,
+        "image":[
+          {
+            "image1":  "images/netflix.jpg",
+            "image2":  "images/netflix.jpg",
+            "image3":  "images/netflix.jpg"
+          }
+      ] 
+      
+      },
+      {
+        "id":8,
+        "name": "primevideo account",
+        "mindescription": "primevideo account",
+        "description": "<h2>Prime Video Account for Sale</h2> <p> Unlock a world of entertainment with a premium Prime Video account. Gain access to a vast collection of movies, TV shows, and original content produced exclusively for Prime members. With our Prime Video account, you can enjoy unlimited streaming, anytime and anywhere. </p> <h3>Features:</h3> <ul> <li>Unlimited streaming of movies, TV shows, and Prime Originals</li> <li>Exclusive access to critically acclaimed and award-winning content</li> <li>Multiple genres to choose from, including action, comedy, drama, and more</li> <li>High-definition (HD) and ultra-high-definition (UHD) streaming available</li> <li>Option to download select titles for offline viewing</li> <li>Ad-free streaming experience for uninterrupted enjoyment</li> <li>Compatible with various devices: smart TVs, laptops, tablets, and smartphones</li> </ul> <h3>How it works:</h3> <ol> <li>Purchase the Prime Video account.</li> <li>Receive the login credentials for the account.</li> <li>Sign in to Prime Video using the provided account details.</li> <li>Browse the extensive library and start streaming your favorite movies and TV shows.</li> <li>Explore exclusive Prime Originals and discover new content.</li> <li>Enjoy seamless streaming with high-quality video and audio.</li> </ol> <p> Note: The Prime Video account provided is for a specific duration or subscription plan. Please refer to the pricing details for more information. </p> <p> Get your Prime Video account today and immerse yourself in a world of captivating entertainment! </p> ",
+        "price": 19.99,
+        "image":[
+          {
+            "image1": "images/primevideo.png",
+            "image2": "images/primevideo.png",
+            "image3": "images/primevideo.png"
+          }
+       ] 
+      }
+    ]
+  }
